@@ -28,8 +28,7 @@ Basic Usage
 
     <?php
   	use bburim\flot\Chart as Chart;
-  	use bburim\flot\Plugin as Plugin;
-  
+
   	echo Chart::widget([
   		'data' => [
   			[
@@ -67,9 +66,6 @@ Basic Usage
   		],
   		'htmlOptions' => [
   			'style' => 'width:400px;height:400px;'
-  		],
-  		'plugins' => [
-  			Plugin::CANVAS
   		]
   	]);
     ?>
@@ -88,3 +84,64 @@ This extension allows you to provide some parameters to configure how your chart
 *data* - data array,  which will be converted to JSON and transfered to jQuery as second parameter when calling function to create chart.
 
 *excanvas* - true/false. Whether to include `excanvas.js` or not.
+
+Using plugins
+===
+
+Sometimes you need to include some Flot plugin to make your Chart more interactive.
+
+The following example shows what needs to be added to include, for example, `jquery.flot.canvas.js` extension:
+
+
+    <?php
+  	use bburim\flot\Chart as Chart;
+  	use bburim\flot\Plugin as Plugin;
+  
+  	echo Chart::widget([
+  		'data' => [
+        // As before
+  		],
+  		'options' => [
+        // As before
+  		],
+  		'htmlOptions' => [
+        // As before
+  		],
+  		// Use `plugins` attribute to load required plugins
+  		'plugins' => [
+  		    // Use helper class with constants to specify plugin type
+  			Plugin::CANVAS
+  		]
+  	]);
+    ?>
+    
+The following plugins are currently available as constants:
+
+`jquery.flot.canvas.js` as Plugin::CANVAS
+
+`jquery.flot.categories.js` as Plugin::CATEGORIES
+
+`jquery.flot.crosshair.js` as Plugin::CROSSHAIR
+
+`jquery.flot.errorbars.js` as Plugin::ERRORBARS
+
+`jquery.flot.fillbetween.js` as Plugin::FILLBETWEEN
+
+`jquery.flot.image.js` as Plugin::IMAGE
+
+`jquery.flot.navigate.js` as Plugin::NAVIGATE
+
+`jquery.flot.pie.js` as Plugin::PIE
+
+`jquery.flot.resize.js` as Plugin::RESIZE
+
+`jquery.flot.selection.js` as Plugin::SELECTION
+
+`jquery.flot.stack.js` as Plugin::STACK
+
+`jquery.flot.symbol.js` as Plugin::SYMBOL
+
+`jquery.flot.threshold.js` as Plugin::THRESHOLD
+
+`jquery.flot.time.js` as Plugin::TIME
+
