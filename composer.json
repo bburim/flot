@@ -1,6 +1,6 @@
 {
 	"name": "bburim/flot",
-	"description": "JQuery Flot Charts extension for the Yii 2 framework",
+	"description": "jQuery Flot Charts extension for the Yii 2 framework",
 	"keywords": ["yii", "flot", "jquery", "chart"],
 	"type": "yii2-extension",
 	"license": "GNU GENERAL PUBLIC LICENSE",
@@ -14,7 +14,7 @@
 		}
 	],
 	"require": {
-		"yiisoft/yii2": "*",
+		"yiisoft/yii2": "*"
 	},
 	"autoload": {
 		"psr-0": { "bburim\\flot\\": "" }
