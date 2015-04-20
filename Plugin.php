@@ -22,6 +22,7 @@ class Plugin
 	const SYMBOL      = 'symbol';
 	const THRESHOLD   = 'threshold';
 	const TIME        = 'time';
+	const TOOLTIP     = 'tooltip';
 
 	public static function getFilename($code) {
 		if ($code && is_scalar($code)) {
