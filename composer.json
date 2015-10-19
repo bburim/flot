@@ -19,5 +19,5 @@
 	"autoload": {
 		"psr-0": { "machour\\flot\\": "" }
 	},
-	"target-dir": "machour/flot"
+	"target-dir": "machour/yii2-jquery-flot"
 }
