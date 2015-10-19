@@ -1,5 +1,5 @@
 {
-	"name": "bburim/flot",
+	"name": "machour/yii2-jquery-flot",
 	"description": "jQuery Flot Charts extension for the Yii 2 framework",
 	"keywords": ["yii", "flot", "jquery", "chart"],
 	"type": "yii2-extension",
