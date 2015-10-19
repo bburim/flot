@@ -11,14 +11,8 @@ use yii;
 class ChartAsset extends AssetBundle
 {
 
-	public static $extra_js = [];
-
 	public function init() {
 		Yii::setAlias('@flot', __DIR__);
-
-		foreach (static::$extra_js as $js_file) {
-			$this->js[]= $js_file;
-		}
 
 		return parent::init();
 	}
