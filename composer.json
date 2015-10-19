@@ -16,7 +16,17 @@
 	"require": {
 		"yiisoft/yii2": "*"
 	},
-	"autoload": {
-		"psr-0": { "machour\\flot\\": "" }
-	}
+    "autoload": {
+        "psr-4": {
+            "machour\\flot\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        }
+    }
 }
