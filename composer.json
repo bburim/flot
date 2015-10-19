@@ -17,7 +17,7 @@
 		"yiisoft/yii2": "*"
 	},
 	"autoload": {
-		"psr-0": { "bburim\\flot\\": "" }
+		"psr-0": { "machour\\flot\\": "" }
 	},
-	"target-dir": "bburim/flot"
+	"target-dir": "machour/flot"
 }
