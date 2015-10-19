@@ -5,7 +5,7 @@
 	"type": "yii2-extension",
 	"license": "GNU GENERAL PUBLIC LICENSE",
 	"support": {
-		"source": "https://github.com/bburim/flot"
+		"source": "https://github.com/machour/yii2-jquery-flot"
 	},
 	"authors": [
 		{
