@@ -1,11 +1,11 @@
 {
-	"name": "bburim/flot",
+	"name": "machour/yii2-jquery-flot",
 	"description": "jQuery Flot Charts extension for the Yii 2 framework",
 	"keywords": ["yii", "flot", "jquery", "chart"],
 	"type": "yii2-extension",
 	"license": "GNU GENERAL PUBLIC LICENSE",
 	"support": {
-		"source": "https://github.com/bburim/flot"
+		"source": "https://github.com/machour/yii2-jquery-flot"
 	},
 	"authors": [
 		{
@@ -16,8 +16,17 @@
 	"require": {
 		"yiisoft/yii2": "*"
 	},
-	"autoload": {
-		"psr-0": { "bburim\\flot\\": "" }
-	},
-	"target-dir": "bburim/flot"
+    "autoload": {
+        "psr-4": {
+            "machour\\flot\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        }
+    }
 }

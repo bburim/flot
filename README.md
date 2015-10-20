@@ -7,6 +7,11 @@ It is actually a wrapper for jQuery Flot Charts library.
 
 If you want to learn more about Flot options and documentation, please visit http://www.flotcharts.org/
 
+IMPORTANT
+===
+
+This is a temporary repository while waiting for this PR to be applied to bburim/flot
+It WILL be deleted soon (hopefully)
 
 Installation
 ===
@@ -20,7 +25,7 @@ Extension in the list of Composer packages: https://packagist.org/packages/bburi
 
 Installation command:
 
-    php composer.phar require "bburim/flot"
+    php composer.phar require "machour/yii2-jquery-flot"
 
 
 Basic Usage

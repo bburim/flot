@@ -1,5 +1,5 @@
 <?php
 
-return array(
-	bburim\flot\ChartAsset::className(), 
-);
+return [
+	machour\flot\ChartAsset::className(), 
+];
