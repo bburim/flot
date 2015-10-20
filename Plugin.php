@@ -3,7 +3,7 @@
  * @author Bogdan Burim <bgdn2007@ukr.net> 
  */
 
-namespace bburim\flot;
+namespace machour\flot;
 
 class Plugin
 {
